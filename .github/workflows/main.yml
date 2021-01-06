@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          My_NAME: Linus 
+          My_NAME: ${{secrets.SECRET_NAME}}
